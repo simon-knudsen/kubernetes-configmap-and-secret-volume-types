@@ -21,10 +21,10 @@ Using **Kubernetes**, I deployed the **Mosquitto** message broker from the offic
 
 <br>
 
-![Mosquitto pod running with the Secret mounted](images/secret%20file.png)
+![Mosquitto pod running with the Secret mounted](images/secret%20file.png)<br>
 _The Mosquitto Deployment is applied and the pod is running. Inside the container, `secret.file` from the Secret is mounted in `/mosquitto/secret`._
 
 <br>
 
-![mosquitto.conf from the ConfigMap inside the container](images/new-config.png)
+![mosquitto.conf from the ConfigMap inside the container](images/new-config.png)<br>
 _The `mosquitto.conf` file from the ConfigMap is mounted in `/mosquitto/config` and contains the custom configuration._
